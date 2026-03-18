@@ -23,8 +23,6 @@ position: relative;
 .hero-title {
     font-weight: 500;
         font-size: 32px;
-    
-        /* line-height: 32px; */
         line-height: 1;
         letter-spacing: -0.02em;
         text-align: center;
@@ -43,8 +41,6 @@ position: relative;
 .hero-text {
     font-weight: 300;
         font-size: 12px;
-    
-        /* line-height: 14px; */
         line-height: 1.17;
         text-align: center;
         color: rgba(251, 251, 251, 0.7);
@@ -52,7 +48,6 @@ position: relative;
 }
 
 .hero-btn {
-            
             border: none;
             border-radius: 15px;
             padding: 14px 32px;
@@ -77,13 +72,17 @@ background: #fbfbfb;
     color: #fd0241ee;
 }
 
+.hero-btn:active {
+    opacity: 0.5;
+}
+
 @media screen and (min-width:768px) {
 .page-hero {
        
         padding-top: 280px;
         padding-bottom: 282px;
-        background-image: linear-gradient(180deg, rgba(17, 19, 31, 0) 98%, rgba(17, 19, 31, 0.4) 75%, rgba(17, 19, 31, 1) 15%), image-set(url('/img/img-hero-t.jpg') 1x, url('/img/img-hero-t@2x.jpg') 2x);
-
+        background-image: linear-gradient(rgba(17, 19, 31, 0.3), rgba(17, 19, 31, 0.3)), image-set(url('/img/img-hero-t.jpg') 1x, url('/img/img-hero-t@2x.jpg') 2x);
+background-repeat: no-repeat;
     }
 
     .br-hero {
@@ -94,28 +93,21 @@ background: #fbfbfb;
 
 
     .hero-title {
-       
-            font-size: 70px;
-        
-           
-            text-align: center;
-            
+        font-size: 70px;
+        text-align: center;   
     }
 
     .hero-text {
-       
             font-size: 16px;
             line-height: 1.4;
+            margin-bottom: 48px;
     }
 
-        .hero-btn {
+    .hero-btn {
                 font-size: 18px;
                 line-height: 1.1;
                 border-radius: 15px;
-                    padding-block: 16px;
-                    padding-inline: 40px;
-                    width: 179px;
-                    height: 52px;
+                padding: 16px 40px;
         }
 }
 
@@ -127,11 +119,12 @@ background: #fbfbfb;
             background-image: linear-gradient(180deg, rgba(17, 19, 31, 0) 98%, rgba(17, 19, 31, 0.4) 75%, rgba(17, 19, 31, 1) 15%), image-set(url('/img/img-hero-d.jpg') 1x, url('/img/img-hero-d@2x.jpg') 2x);
         }
 
-               
-                
+    br {
+        display: none;
+    }
 
         .hero-title {
-           
+          
                 font-size: 80px;
             width: 1000px;
                
@@ -149,6 +142,5 @@ background: #fbfbfb;
                 font-size: 16px;
                 line-height: 1.4;
                width: 597px;
-               margin-bottom: 48px;
         }
     }
