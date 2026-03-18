@@ -29,6 +29,7 @@ p {
 a {
   display: block;
   color: inherit;
+  outline: none;
 }
 
 img {
