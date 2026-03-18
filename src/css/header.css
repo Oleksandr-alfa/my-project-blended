@@ -131,7 +131,7 @@ stroke-width: 2.50px;
       fill: #1b414b;
       width: 24px;
       height: 24px;
-      transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
+      transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .social-list-item .link:hover,
@@ -141,8 +141,11 @@ stroke-width: 2.50px;
 
     .social-list-item .link:active {
       fill: #fbfbfb;
-      stroke: #062730;
     }
+
+        .social-list-item:active {
+          background-color: #062730;
+        }
 
   .icon-burger {
     display: none;
