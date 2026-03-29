@@ -12,7 +12,7 @@ position: relative;
 }
 
 .page-about .container {
-    max-width: 375px;
+    
 transform: translateY(-60px);
 
 position: absolute;
@@ -83,10 +83,7 @@ border-radius: 0 0 27px 27px;
 }
 
 @media screen and (min-width:768px) {
-    .page-about .container {
-        max-width: 768px;
-        
-}
+   
 
 .about-text-box {
 
@@ -131,9 +128,7 @@ border-radius: 0 0 27px 27px;
 }
 
 @media screen and (min-width:1280px) {
-    .page-about .container {
-            max-width: 1280px;
-    }
+  
 
 
 
