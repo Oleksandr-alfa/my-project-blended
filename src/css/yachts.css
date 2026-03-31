@@ -3,7 +3,7 @@
     margin: 0px auto;
 
     background-color: #0E1823;
-    padding: 180px 0 80px 0;
+    padding: 180px 0 0 0;
 }
 
 .section-yachts .container {
@@ -214,7 +214,7 @@ font-weight: 400;
 
 @media screen and (min-width: 1280px) {
 .section-yachts {
-            padding: 305px 0 150px 0;
+            padding: 305px 0 0 0;
         }
 
 .yacht-card {
