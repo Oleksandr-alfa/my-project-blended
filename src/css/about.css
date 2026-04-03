@@ -2,35 +2,28 @@
 position: relative;
    display: flex;
    justify-content: center;
-
-  
    height: 600px;
    border: none;
-    background-color: #0e1823;
     margin: 0 auto;
-   
 }
 
 .page-about .container {
-    
 transform: translateY(-60px);
-
 position: absolute;
-  
-    border: none;
-     
       display: flex;
       flex-direction: column;
-     
     }
 
+        .about-wrap {
+background: #fbfbfb;
+border-radius: 24px;
+outline: none;
+        }
+
     .about-text-box {
-        
-        
     border-radius: 24px 24px 0 0;
         padding: 40px 20px;
         background: #fbfbfb;
-        /* max-width: 335px; */
     }
      
 
@@ -48,7 +41,6 @@ position: absolute;
 .about-text-big {
 font-weight: 400;
     font-size: 18px;
-
     margin-bottom: 20px;
     line-height: 1;
     letter-spacing: -0.02em;
@@ -56,46 +48,27 @@ font-weight: 400;
 }
 
 .about-text-small {
-   
     font-weight: 400;
         font-size: 12px;
         line-height: 1.17;
         letter-spacing: -0.02em;
         color: #040306;
         opacity: 0.4;
-       
-}
-
-.about-img-box {
-
-/* transform: translateY(-60px); */
-   /* position: absolute; */
-background-color: #fbfbfb;
-border-radius: 0 0 27px 27px;
 }
 
 .about-img {
-    object-fit: cover;
-    /* border-radius: 0 0 24px 24px; */
-    
-    border-radius: 24px 24px 0 0;
-    
+    object-fit: cover; 
+    border-radius: 24px; 
 }
 
 @media screen and (min-width:768px) {
    
 
 .about-text-box {
-
-
-   
     padding: 50px 32px;
-   
-  
 }
 
 .about-title {
-    
         font-size: 48px;
        width: 536px;
         line-height: 1;
@@ -108,20 +81,13 @@ border-radius: 0 0 27px 27px;
 }
 
 .about-text-big {
-   
         font-size: 23px;
-   
-       
 }
 
 .about-text-small {
-   
         font-size: 13px;
-   
-      
         line-height: 1.15;
         letter-spacing: -0.02em;
-    
 }
 
 
@@ -129,24 +95,17 @@ border-radius: 0 0 27px 27px;
 
 @media screen and (min-width:1280px) {
   
-
-
-
 .about-text-box {
-
 display: flex;
     flex-direction: row;
 justify-content: space-between;
     padding: 50px 50px 100px 50px;
-
-
 }
 
 .about-title {
     padding: 0;
   margin-right: 189px;
   margin-bottom: 0;
-
 }
 
 .about-text-wrap {
@@ -155,20 +114,12 @@ justify-content: space-between;
 
 .about-text-big {
     padding-left: 0;
-    
     font-size: 23px;
-   
-
 }
 
 .about-text-small {
     padding-left: 0;
     font-size: 13px;
-   
- 
-
-
-
 }
 
 }
