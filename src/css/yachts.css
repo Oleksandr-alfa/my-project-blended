@@ -166,7 +166,7 @@ font-weight: 400;
 @media screen and (min-width: 768px) {
 
     .section-yachts {
-        padding: 426px 0 150px 0;
+        padding: 426px 0 0 0;
     }
    
     .title-yachts {
