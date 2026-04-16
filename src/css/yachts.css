@@ -41,14 +41,17 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 40px;
+   
 }
+
+
 
  
 
 .yacht-card {
     display: flex;
     flex-direction: column;
-    
+    scroll-snap-align: start;
     background-color: #fbfbfb;
     padding: 16px;
     border-radius: 24px;
@@ -64,6 +67,7 @@
 .yacht-card.three {
     display: none;
 }
+ 
 
 .yacht-card-img {
     width: 100%;
